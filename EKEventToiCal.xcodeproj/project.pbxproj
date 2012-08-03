@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37CB95A9139E8FEA0053AE30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB95A8139E8FEA0053AE30 /* UIKit.framework */; };
+		37CB95AB139E8FEA0053AE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB95AA139E8FEA0053AE30 /* Foundation.framework */; };
+		37CB95AD139E8FEA0053AE30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB95AC139E8FEA0053AE30 /* CoreGraphics.framework */; };
+		37CB95B3139E8FEA0053AE30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37CB95B1139E8FEA0053AE30 /* InfoPlist.strings */; };
+		37CB95B6139E8FEA0053AE30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB95B5139E8FEA0053AE30 /* main.m */; };
+		37CB95B9139E8FEA0053AE30 /* EKEventToiCalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB95B8139E8FEA0053AE30 /* EKEventToiCalAppDelegate.m */; };
+		37CB95BD139E8FEA0053AE30 /* EKEventToiCalAppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB95BC139E8FEA0053AE30 /* EKEventToiCalAppDelegate_iPhone.m */; };
+		37CB95C0139E8FEA0053AE30 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CB95BE139E8FEA0053AE30 /* MainWindow_iPhone.xib */; };
+		37CB95C4139E8FEB0053AE30 /* EKEventToiCalAppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB95C3139E8FEB0053AE30 /* EKEventToiCalAppDelegate_iPad.m */; };
+		37CB95C7139E8FEB0053AE30 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CB95C5139E8FEB0053AE30 /* MainWindow_iPad.xib */; };
+		37CB95CE139E8FEB0053AE30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB95A8139E8FEA0053AE30 /* UIKit.framework */; };
+		37CB95CF139E8FEB0053AE30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB95AA139E8FEA0053AE30 /* Foundation.framework */; };
+		37CB95D0139E8FEB0053AE30 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB95AC139E8FEA0053AE30 /* CoreGraphics.framework */; };
+		37CB95D8139E8FEB0053AE30 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37CB95D6139E8FEB0053AE30 /* InfoPlist.strings */; };
+		37CB95DB139E8FEB0053AE30 /* EKEventToiCalTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 37CB95DA139E8FEB0053AE30 /* EKEventToiCalTests.h */; };
+		37CB95DD139E8FEB0053AE30 /* EKEventToiCalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB95DC139E8FEB0053AE30 /* EKEventToiCalTests.m */; };
+		37CB95E7139E8FF90053AE30 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB95E6139E8FF90053AE30 /* EventKit.framework */; };
+		37CB95EA139E91210053AE30 /* EKEvent+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB95E9139E91200053AE30 /* EKEvent+Utilities.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37CB95D1139E8FEB0053AE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37CB959B139E8FEA0053AE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37CB95A3139E8FEA0053AE30;
+			remoteInfo = EKEventToiCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37CB95A4139E8FEA0053AE30 /* EKEventToiCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EKEventToiCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CB95A8139E8FEA0053AE30 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37CB95AA139E8FEA0053AE30 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37CB95AC139E8FEA0053AE30 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37CB95B0139E8FEA0053AE30 /* EKEventToiCal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EKEventToiCal-Info.plist"; sourceTree = "<group>"; };
+		37CB95B2139E8FEA0053AE30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37CB95B4139E8FEA0053AE30 /* EKEventToiCal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKEventToiCal-Prefix.pch"; sourceTree = "<group>"; };
+		37CB95B5139E8FEA0053AE30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37CB95B7139E8FEA0053AE30 /* EKEventToiCalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKEventToiCalAppDelegate.h; sourceTree = "<group>"; };
+		37CB95B8139E8FEA0053AE30 /* EKEventToiCalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKEventToiCalAppDelegate.m; sourceTree = "<group>"; };
+		37CB95BB139E8FEA0053AE30 /* EKEventToiCalAppDelegate_iPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EKEventToiCalAppDelegate_iPhone.h; path = iPhone/EKEventToiCalAppDelegate_iPhone.h; sourceTree = "<group>"; };
+		37CB95BC139E8FEA0053AE30 /* EKEventToiCalAppDelegate_iPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EKEventToiCalAppDelegate_iPhone.m; path = iPhone/EKEventToiCalAppDelegate_iPhone.m; sourceTree = "<group>"; };
+		37CB95BF139E8FEA0053AE30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPhone/en.lproj/MainWindow_iPhone.xib; sourceTree = "<group>"; };
+		37CB95C2139E8FEB0053AE30 /* EKEventToiCalAppDelegate_iPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EKEventToiCalAppDelegate_iPad.h; path = iPad/EKEventToiCalAppDelegate_iPad.h; sourceTree = "<group>"; };
+		37CB95C3139E8FEB0053AE30 /* EKEventToiCalAppDelegate_iPad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = EKEventToiCalAppDelegate_iPad.m; path = iPad/EKEventToiCalAppDelegate_iPad.m; sourceTree = "<group>"; };
+		37CB95C6139E8FEB0053AE30 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = iPad/en.lproj/MainWindow_iPad.xib; sourceTree = "<group>"; };
+		37CB95CD139E8FEB0053AE30 /* EKEventToiCalTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EKEventToiCalTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37CB95D5139E8FEB0053AE30 /* EKEventToiCalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EKEventToiCalTests-Info.plist"; sourceTree = "<group>"; };
+		37CB95D7139E8FEB0053AE30 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37CB95D9139E8FEB0053AE30 /* EKEventToiCalTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EKEventToiCalTests-Prefix.pch"; sourceTree = "<group>"; };
+		37CB95DA139E8FEB0053AE30 /* EKEventToiCalTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EKEventToiCalTests.h; sourceTree = "<group>"; };
+		37CB95DC139E8FEB0053AE30 /* EKEventToiCalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EKEventToiCalTests.m; sourceTree = "<group>"; };
+		37CB95E6139E8FF90053AE30 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		37CB95E8139E91200053AE30 /* EKEvent+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EKEvent+Utilities.h"; sourceTree = "<group>"; };
+		37CB95E9139E91200053AE30 /* EKEvent+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EKEvent+Utilities.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37CB95A1139E8FEA0053AE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB95E7139E8FF90053AE30 /* EventKit.framework in Frameworks */,
+				37CB95A9139E8FEA0053AE30 /* UIKit.framework in Frameworks */,
+				37CB95AB139E8FEA0053AE30 /* Foundation.framework in Frameworks */,
+				37CB95AD139E8FEA0053AE30 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CB95C9139E8FEB0053AE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB95CE139E8FEB0053AE30 /* UIKit.framework in Frameworks */,
+				37CB95CF139E8FEB0053AE30 /* Foundation.framework in Frameworks */,
+				37CB95D0139E8FEB0053AE30 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37CB9599139E8FEA0053AE30 = {
+			isa = PBXGroup;
+			children = (
+				37CB95AE139E8FEA0053AE30 /* EKEventToiCal */,
+				37CB95D3139E8FEB0053AE30 /* EKEventToiCalTests */,
+				37CB95A7139E8FEA0053AE30 /* Frameworks */,
+				37CB95A5139E8FEA0053AE30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37CB95A5139E8FEA0053AE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37CB95A4139E8FEA0053AE30 /* EKEventToiCal.app */,
+				37CB95CD139E8FEB0053AE30 /* EKEventToiCalTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37CB95A7139E8FEA0053AE30 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37CB95E6139E8FF90053AE30 /* EventKit.framework */,
+				37CB95A8139E8FEA0053AE30 /* UIKit.framework */,
+				37CB95AA139E8FEA0053AE30 /* Foundation.framework */,
+				37CB95AC139E8FEA0053AE30 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37CB95AE139E8FEA0053AE30 /* EKEventToiCal */ = {
+			isa = PBXGroup;
+			children = (
+				37CB95B7139E8FEA0053AE30 /* EKEventToiCalAppDelegate.h */,
+				37CB95B8139E8FEA0053AE30 /* EKEventToiCalAppDelegate.m */,
+				37CB95E8139E91200053AE30 /* EKEvent+Utilities.h */,
+				37CB95E9139E91200053AE30 /* EKEvent+Utilities.m */,
+				37CB95BA139E8FEA0053AE30 /* iPhone */,
+				37CB95C1139E8FEB0053AE30 /* iPad */,
+				37CB95AF139E8FEA0053AE30 /* Supporting Files */,
+			);
+			path = EKEventToiCal;
+			sourceTree = "<group>";
+		};
+		37CB95AF139E8FEA0053AE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37CB95B0139E8FEA0053AE30 /* EKEventToiCal-Info.plist */,
+				37CB95B1139E8FEA0053AE30 /* InfoPlist.strings */,
+				37CB95B4139E8FEA0053AE30 /* EKEventToiCal-Prefix.pch */,
+				37CB95B5139E8FEA0053AE30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37CB95BA139E8FEA0053AE30 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				37CB95BC139E8FEA0053AE30 /* EKEventToiCalAppDelegate_iPhone.m */,
+				37CB95BB139E8FEA0053AE30 /* EKEventToiCalAppDelegate_iPhone.h */,
+				37CB95BE139E8FEA0053AE30 /* MainWindow_iPhone.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		37CB95C1139E8FEB0053AE30 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				37CB95C2139E8FEB0053AE30 /* EKEventToiCalAppDelegate_iPad.h */,
+				37CB95C3139E8FEB0053AE30 /* EKEventToiCalAppDelegate_iPad.m */,
+				37CB95C5139E8FEB0053AE30 /* MainWindow_iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		37CB95D3139E8FEB0053AE30 /* EKEventToiCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				37CB95DA139E8FEB0053AE30 /* EKEventToiCalTests.h */,
+				37CB95DC139E8FEB0053AE30 /* EKEventToiCalTests.m */,
+				37CB95D4139E8FEB0053AE30 /* Supporting Files */,
+			);
+			path = EKEventToiCalTests;
+			sourceTree = "<group>";
+		};
+		37CB95D4139E8FEB0053AE30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37CB95D5139E8FEB0053AE30 /* EKEventToiCalTests-Info.plist */,
+				37CB95D6139E8FEB0053AE30 /* InfoPlist.strings */,
+				37CB95D9139E8FEB0053AE30 /* EKEventToiCalTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37CB95A3139E8FEA0053AE30 /* EKEventToiCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CB95E0139E8FEB0053AE30 /* Build configuration list for PBXNativeTarget "EKEventToiCal" */;
+			buildPhases = (
+				37CB95A0139E8FEA0053AE30 /* Sources */,
+				37CB95A1139E8FEA0053AE30 /* Frameworks */,
+				37CB95A2139E8FEA0053AE30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKEventToiCal;
+			productName = EKEventToiCal;
+			productReference = 37CB95A4139E8FEA0053AE30 /* EKEventToiCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37CB95CC139E8FEB0053AE30 /* EKEventToiCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37CB95E3139E8FEB0053AE30 /* Build configuration list for PBXNativeTarget "EKEventToiCalTests" */;
+			buildPhases = (
+				37CB95C8139E8FEB0053AE30 /* Sources */,
+				37CB95C9139E8FEB0053AE30 /* Frameworks */,
+				37CB95CA139E8FEB0053AE30 /* Resources */,
+				37CB95CB139E8FEB0053AE30 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37CB95D2139E8FEB0053AE30 /* PBXTargetDependency */,
+			);
+			name = EKEventToiCalTests;
+			productName = EKEventToiCalTests;
+			productReference = 37CB95CD139E8FEB0053AE30 /* EKEventToiCalTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37CB959B139E8FEA0053AE30 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 37CB959E139E8FEA0053AE30 /* Build configuration list for PBXProject "EKEventToiCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 37CB9599139E8FEA0053AE30;
+			productRefGroup = 37CB95A5139E8FEA0053AE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37CB95A3139E8FEA0053AE30 /* EKEventToiCal */,
+				37CB95CC139E8FEB0053AE30 /* EKEventToiCalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37CB95A2139E8FEA0053AE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB95B3139E8FEA0053AE30 /* InfoPlist.strings in Resources */,
+				37CB95C0139E8FEA0053AE30 /* MainWindow_iPhone.xib in Resources */,
+				37CB95C7139E8FEB0053AE30 /* MainWindow_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CB95CA139E8FEB0053AE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB95D8139E8FEB0053AE30 /* InfoPlist.strings in Resources */,
+				37CB95DB139E8FEB0053AE30 /* EKEventToiCalTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37CB95CB139E8FEB0053AE30 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37CB95A0139E8FEA0053AE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB95B6139E8FEA0053AE30 /* main.m in Sources */,
+				37CB95B9139E8FEA0053AE30 /* EKEventToiCalAppDelegate.m in Sources */,
+				37CB95BD139E8FEA0053AE30 /* EKEventToiCalAppDelegate_iPhone.m in Sources */,
+				37CB95C4139E8FEB0053AE30 /* EKEventToiCalAppDelegate_iPad.m in Sources */,
+				37CB95EA139E91210053AE30 /* EKEvent+Utilities.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37CB95C8139E8FEB0053AE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CB95DD139E8FEB0053AE30 /* EKEventToiCalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37CB95D2139E8FEB0053AE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37CB95A3139E8FEA0053AE30 /* EKEventToiCal */;
+			targetProxy = 37CB95D1139E8FEB0053AE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37CB95B1139E8FEA0053AE30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CB95B2139E8FEA0053AE30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37CB95BE139E8FEA0053AE30 /* MainWindow_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CB95BF139E8FEA0053AE30 /* en */,
+			);
+			name = MainWindow_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		37CB95C5139E8FEB0053AE30 /* MainWindow_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CB95C6139E8FEB0053AE30 /* en */,
+			);
+			name = MainWindow_iPad.xib;
+			sourceTree = "<group>";
+		};
+		37CB95D6139E8FEB0053AE30 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37CB95D7139E8FEB0053AE30 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37CB95DE139E8FEB0053AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37CB95DF139E8FEB0053AE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37CB95E1139E8FEB0053AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKEventToiCal/EKEventToiCal-Prefix.pch";
+				INFOPLIST_FILE = "EKEventToiCal/EKEventToiCal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37CB95E2139E8FEB0053AE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKEventToiCal/EKEventToiCal-Prefix.pch";
+				INFOPLIST_FILE = "EKEventToiCal/EKEventToiCal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37CB95E4139E8FEB0053AE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EKEventToiCal.app/EKEventToiCal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKEventToiCalTests/EKEventToiCalTests-Prefix.pch";
+				INFOPLIST_FILE = "EKEventToiCalTests/EKEventToiCalTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		37CB95E5139E8FEB0053AE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EKEventToiCal.app/EKEventToiCal";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EKEventToiCalTests/EKEventToiCalTests-Prefix.pch";
+				INFOPLIST_FILE = "EKEventToiCalTests/EKEventToiCalTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37CB959E139E8FEA0053AE30 /* Build configuration list for PBXProject "EKEventToiCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CB95DE139E8FEB0053AE30 /* Debug */,
+				37CB95DF139E8FEB0053AE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37CB95E0139E8FEB0053AE30 /* Build configuration list for PBXNativeTarget "EKEventToiCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CB95E1139E8FEB0053AE30 /* Debug */,
+				37CB95E2139E8FEB0053AE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37CB95E3139E8FEB0053AE30 /* Build configuration list for PBXNativeTarget "EKEventToiCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37CB95E4139E8FEB0053AE30 /* Debug */,
+				37CB95E5139E8FEB0053AE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37CB959B139E8FEA0053AE30 /* Project object */;
+}
